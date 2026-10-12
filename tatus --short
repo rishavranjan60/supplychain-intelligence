@@ -1,0 +1,199 @@
+ .env                                               |      5 [32m+[m
+ .env.example                                       |    Bin [31m0[m -> [32m248[m bytes
+ .gitignore                                         |    Bin [31m0[m -> [32m420[m bytes
+ .venv/Lib/site-packages/PIL/AvifImagePlugin.py     |    295 [32m+[m
+ .venv/Lib/site-packages/PIL/BdfFontFile.py         |    124 [32m+[m
+ .venv/Lib/site-packages/PIL/BlpImagePlugin.py      |    498 [32m+[m
+ .venv/Lib/site-packages/PIL/BmpImagePlugin.py      |    514 [32m+[m
+ .venv/Lib/site-packages/PIL/BufrStubImagePlugin.py |     72 [32m+[m
+ .venv/Lib/site-packages/PIL/ContainerIO.py         |    173 [32m+[m
+ .venv/Lib/site-packages/PIL/CurImagePlugin.py      |    103 [32m+[m
+ .venv/Lib/site-packages/PIL/DcxImagePlugin.py      |     84 [32m+[m
+ .venv/Lib/site-packages/PIL/DdsImagePlugin.py      |    632 [32m+[m
+ .venv/Lib/site-packages/PIL/EpsImagePlugin.py      |    484 [32m+[m
+ .venv/Lib/site-packages/PIL/ExifTags.py            |    384 [32m+[m
+ .venv/Lib/site-packages/PIL/FitsImagePlugin.py     |    153 [32m+[m
+ .venv/Lib/site-packages/PIL/FliImagePlugin.py      |    184 [32m+[m
+ .venv/Lib/site-packages/PIL/FontFile.py            |    160 [32m+[m
+ .venv/Lib/site-packages/PIL/FpxImagePlugin.py      |    262 [32m+[m
+ .venv/Lib/site-packages/PIL/FtexImagePlugin.py     |    115 [32m+[m
+ .venv/Lib/site-packages/PIL/GbrImagePlugin.py      |    103 [32m+[m
+ .venv/Lib/site-packages/PIL/GdImageFile.py         |    104 [32m+[m
+ .venv/Lib/site-packages/PIL/GifImagePlugin.py      |   1223 [32m+[m
+ .venv/Lib/site-packages/PIL/GimpGradientFile.py    |    154 [32m+[m
+ .venv/Lib/site-packages/PIL/GimpPaletteFile.py     |     75 [32m+[m
+ .venv/Lib/site-packages/PIL/GribStubImagePlugin.py |     72 [32m+[m
+ .venv/Lib/site-packages/PIL/Hdf5StubImagePlugin.py |     72 [32m+[m
+ .venv/Lib/site-packages/PIL/IcnsImagePlugin.py     |    401 [32m+[m
+ .venv/Lib/site-packages/PIL/IcoImagePlugin.py      |    396 [32m+[m
+ .venv/Lib/site-packages/PIL/ImImagePlugin.py       |    390 [32m+[m
+ .venv/Lib/site-packages/PIL/Image.py               |   4385 [32m+[m
+ .venv/Lib/site-packages/PIL/ImageChops.py          |    311 [32m+[m
+ .venv/Lib/site-packages/PIL/ImageCms.py            |   1078 [32m+[m
+ .venv/Lib/site-packages/PIL/ImageColor.py          |    320 [32m+[m
+ .venv/Lib/site-packages/PIL/ImageDraw.py           |   1002 [32m+[m
+ .venv/Lib/site-packages/PIL/ImageDraw2.py          |    244 [32m+[m
+ .venv/Lib/site-packages/PIL/ImageEnhance.py        |    113 [32m+[m
+ .venv/Lib/site-packages/PIL/ImageFile.py           |    938 [32m+[m
+ .venv/Lib/site-packages/PIL/ImageFilter.py         |    617 [32m+[m
+ .venv/Lib/site-packages/PIL/ImageFont.py           |   1330 [32m+[m
+ .venv/Lib/site-packages/PIL/ImageGrab.py           |    234 [32m+[m
+ .venv/Lib/site-packages/PIL/ImageMath.py           |    314 [32m+[m
+ .venv/Lib/site-packages/PIL/ImageMode.py           |     85 [32m+[m
+ .venv/Lib/site-packages/PIL/ImageMorph.py          |    317 [32m+[m
+ .venv/Lib/site-packages/PIL/ImageOps.py            |    749 [32m+[m
+ .venv/Lib/site-packages/PIL/ImagePalette.py        |    290 [32m+[m
+ .venv/Lib/site-packages/PIL/ImagePath.py           |     20 [32m+[m
+ .venv/Lib/site-packages/PIL/ImageQt.py             |    219 [32m+[m
+ .venv/Lib/site-packages/PIL/ImageSequence.py       |     88 [32m+[m
+ .venv/Lib/site-packages/PIL/ImageShow.py           |    367 [32m+[m
+ .venv/Lib/site-packages/PIL/ImageStat.py           |    167 [32m+[m
+ .venv/Lib/site-packages/PIL/ImageText.py           |    509 [32m+[m
+ .venv/Lib/site-packages/PIL/ImageTk.py             |    266 [32m+[m
+ .venv/Lib/site-packages/PIL/ImageTransform.py      |    136 [32m+[m
+ .venv/Lib/site-packages/PIL/ImageWin.py            |    247 [32m+[m
+ .venv/Lib/site-packages/PIL/ImtImagePlugin.py      |    103 [32m+[m
+ .venv/Lib/site-packages/PIL/IptcImagePlugin.py     |    226 [32m+[m
+ .venv/Lib/site-packages/PIL/Jpeg2KImagePlugin.py   |    466 [32m+[m
+ .venv/Lib/site-packages/PIL/JpegImagePlugin.py     |    889 [32m+[m
+ .venv/Lib/site-packages/PIL/JpegPresets.py         |    242 [32m+[m
+ .venv/Lib/site-packages/PIL/McIdasImagePlugin.py   |     78 [32m+[m
+ .venv/Lib/site-packages/PIL/MicImagePlugin.py      |    103 [32m+[m
+ .venv/Lib/site-packages/PIL/MpegImagePlugin.py     |     84 [32m+[m
+ .venv/Lib/site-packages/PIL/MpoImagePlugin.py      |    203 [32m+[m
+ .venv/Lib/site-packages/PIL/MspImagePlugin.py      |    200 [32m+[m
+ .venv/Lib/site-packages/PIL/PSDraw.py              |    238 [32m+[m
+ .venv/Lib/site-packages/PIL/PaletteFile.py         |     54 [32m+[m
+ .venv/Lib/site-packages/PIL/PalmImagePlugin.py     |    217 [32m+[m
+ .venv/Lib/site-packages/PIL/PcdImagePlugin.py      |     68 [32m+[m
+ .venv/Lib/site-packages/PIL/PcfFontFile.py         |    256 [32m+[m
+ .venv/Lib/site-packages/PIL/PcxImagePlugin.py      |    232 [32m+[m
+ .venv/Lib/site-packages/PIL/PdfImagePlugin.py      |    315 [32m+[m
+ .venv/Lib/site-packages/PIL/PdfParser.py           |   1092 [32m+[m
+ .venv/Lib/site-packages/PIL/PixarImagePlugin.py    |     72 [32m+[m
+ .venv/Lib/site-packages/PIL/PngImagePlugin.py      |   1578 [32m+[m
+ .venv/Lib/site-packages/PIL/PpmImagePlugin.py      |    375 [32m+[m
+ .venv/Lib/site-packages/PIL/PsdImagePlugin.py      |    339 [32m+[m
+ .venv/Lib/site-packages/PIL/QoiImagePlugin.py      |    235 [32m+[m
+ .venv/Lib/site-packages/PIL/SgiImagePlugin.py      |    231 [32m+[m
+ .venv/Lib/site-packages/PIL/SpiderImagePlugin.py   |    332 [32m+[m
+ .venv/Lib/site-packages/PIL/SunImagePlugin.py      |    145 [32m+[m
+ .venv/Lib/site-packages/PIL/TarIO.py               |     61 [32m+[m
+ .venv/Lib/site-packages/PIL/TgaImagePlugin.py      |    284 [32m+[m
+ .venv/Lib/site-packages/PIL/TiffImagePlugin.py     |   2354 [32m+[m
+ .venv/Lib/site-packages/PIL/TiffTags.py            |    566 [32m+[m
+ .venv/Lib/site-packages/PIL/WalImageFile.py        |    129 [32m+[m
+ .venv/Lib/site-packages/PIL/WebPImagePlugin.py     |    322 [32m+[m
+ .venv/Lib/site-packages/PIL/WmfImagePlugin.py      |    183 [32m+[m
+ .venv/Lib/site-packages/PIL/XVThumbImagePlugin.py  |     83 [32m+[m
+ .venv/Lib/site-packages/PIL/XbmImagePlugin.py      |     98 [32m+[m
+ .venv/Lib/site-packages/PIL/XpmImagePlugin.py      |    157 [32m+[m
+ .venv/Lib/site-packages/PIL/__init__.py            |     87 [32m+[m
+ .venv/Lib/site-packages/PIL/__main__.py            |      7 [32m+[m
+ .../__pycache__/AvifImagePlugin.cpython-311.pyc    |    Bin [31m0[m -> [32m13220[m bytes
+ .../PIL/__pycache__/BdfFontFile.cpython-311.pyc    |    Bin [31m0[m -> [32m5100[m bytes
+ .../PIL/__pycache__/BlpImagePlugin.cpython-311.pyc |    Bin [31m0[m -> [32m25937[m bytes
+ .../PIL/__pycache__/BmpImagePlugin.cpython-311.pyc |    Bin [31m0[m -> [32m20215[m bytes
+ .../BufrStubImagePlugin.cpython-311.pyc            |    Bin [31m0[m -> [32m2880[m bytes
+ .../PIL/__pycache__/ContainerIO.cpython-311.pyc    |    Bin [31m0[m -> [32m7571[m bytes
+ .../PIL/__pycache__/CurImagePlugin.cpython-311.pyc |    Bin [31m0[m -> [32m4361[m bytes
+ .../PIL/__pycache__/DcxImagePlugin.cpython-311.pyc |    Bin [31m0[m -> [32m3173[m bytes
+ .../PIL/__pycache__/DdsImagePlugin.cpython-311.pyc |    Bin [31m0[m -> [32m24504[m bytes
+ .../PIL/__pycache__/EpsImagePlugin.cpython-311.pyc |    Bin [31m0[m -> [32m18052[m bytes
+ .../PIL/__pycache__/ExifTags.cpython-311.pyc       |    Bin [31m0[m -> [32m12033[m bytes
+ .../__pycache__/FitsImagePlugin.cpython-311.pyc    |    Bin [31m0[m -> [32m7054[m bytes
+ .../PIL/__pycache__/FliImagePlugin.cpython-311.pyc |    Bin [31m0[m -> [32m7945[m bytes
+ .../PIL/__pycache__/FontFile.cpython-311.pyc       |    Bin [31m0[m -> [32m6389[m bytes
+ .../PIL/__pycache__/FpxImagePlugin.cpython-311.pyc |    Bin [31m0[m -> [32m8754[m bytes
+ .../__pycache__/FtexImagePlugin.cpython-311.pyc    |    Bin [31m0[m -> [32m5605[m bytes
+ .../PIL/__pycache__/GbrImagePlugin.cpython-311.pyc |    Bin [31m0[m -> [32m4016[m bytes
+ .../PIL/__pycache__/GdImageFile.cpython-311.pyc    |    Bin [31m0[m -> [32m3878[m bytes
+ .../PIL/__pycache__/GifImagePlugin.cpython-311.pyc |    Bin [31m0[m -> [32m48264[m bytes
+ .../__pycache__/GimpGradientFile.cpython-311.pyc   |    Bin [31m0[m -> [32m6690[m bytes
+ .../__pycache__/GimpPaletteFile.cpython-311.pyc    |    Bin [31m0[m -> [32m3230[m bytes
+ .../GribStubImagePlugin.cpython-311.pyc            |    Bin [31m0[m -> [32m2983[m bytes
+ .../Hdf5StubImagePlugin.cpython-311.pyc            |    Bin [31m0[m -> [32m2886[m bytes
+ .../__pycache__/IcnsImagePlugin.cpython-311.pyc    |    Bin [31m0[m -> [32m18508[m bytes
+ .../PIL/__pycache__/IcoImagePlugin.cpython-311.pyc |    Bin [31m0[m -> [32m16519[m bytes
+ .../PIL/__pycache__/ImImagePlugin.cpython-311.pyc  |    Bin [31m0[m -> [32m13965[m bytes
+ .../PIL/__pycache__/Image.cpython-311.pyc          |    Bin [31m0[m -> [32m191697[m bytes
+ .../PIL/__pycache__/ImageChops.cpython-311.pyc     |    Bin [31m0[m -> [32m11874[m bytes
+ .../PIL/__pycache__/ImageCms.cpython-311.pyc       |    Bin [31m0[m -> [32m44427[m bytes
+ .../PIL/__pycache__/ImageColor.cpython-311.pyc     |    Bin [31m0[m -> [32m13819[m bytes
+ .../PIL/__pycache__/ImageDraw.cpython-311.pyc      |    Bin [31m0[m -> [32m41394[m bytes
+ .../PIL/__pycache__/ImageDraw2.cpython-311.pyc     |    Bin [31m0[m -> [32m10327[m bytes
+ .../PIL/__pycache__/ImageEnhance.cpython-311.pyc   |    Bin [31m0[m -> [32m5875[m bytes
+ .../PIL/__pycache__/ImageFile.cpython-311.pyc      |    Bin [31m0[m -> [32m39209[m bytes
+ .../PIL/__pycache__/ImageFilter.cpython-311.pyc    |    Bin [31m0[m -> [32m26372[m bytes
+ .../PIL/__pycache__/ImageFont.cpython-311.pyc      |    Bin [31m0[m -> [32m71186[m bytes
+ .../PIL/__pycache__/ImageGrab.cpython-311.pyc      |    Bin [31m0[m -> [32m9294[m bytes
+ .../PIL/__pycache__/ImageMath.cpython-311.pyc      |    Bin [31m0[m -> [32m15789[m bytes
+ .../PIL/__pycache__/ImageMode.cpython-311.pyc      |    Bin [31m0[m -> [32m2795[m bytes
+ .../PIL/__pycache__/ImageMorph.cpython-311.pyc     |    Bin [31m0[m -> [32m14300[m bytes
+ .../PIL/__pycache__/ImageOps.cpython-311.pyc       |    Bin [31m0[m -> [32m32731[m bytes
+ .../PIL/__pycache__/ImagePalette.cpython-311.pyc   |    Bin [31m0[m -> [32m14547[m bytes
+ .../PIL/__pycache__/ImagePath.cpython-311.pyc      |    Bin [31m0[m -> [32m348[m bytes
+ .../PIL/__pycache__/ImageQt.cpython-311.pyc        |    Bin [31m0[m -> [32m9839[m bytes
+ .../PIL/__pycache__/ImageSequence.cpython-311.pyc  |    Bin [31m0[m -> [32m4021[m bytes
+ .../PIL/__pycache__/ImageShow.cpython-311.pyc      |    Bin [31m0[m -> [32m16428[m bytes
+ .../PIL/__pycache__/ImageStat.cpython-311.pyc      |    Bin [31m0[m -> [32m8858[m bytes
+ .../PIL/__pycache__/ImageText.cpython-311.pyc      |    Bin [31m0[m -> [32m21149[m bytes
+ .../PIL/__pycache__/ImageTk.cpython-311.pyc        |    Bin [31m0[m -> [32m10036[m bytes
+ .../PIL/__pycache__/ImageTransform.cpython-311.pyc |    Bin [31m0[m -> [32m5677[m bytes
+ .../PIL/__pycache__/ImageWin.cpython-311.pyc       |    Bin [31m0[m -> [32m12976[m bytes
+ .../PIL/__pycache__/ImtImagePlugin.cpython-311.pyc |    Bin [31m0[m -> [32m2829[m bytes
+ .../__pycache__/IptcImagePlugin.cpython-311.pyc    |    Bin [31m0[m -> [32m9203[m bytes
+ .../__pycache__/Jpeg2KImagePlugin.cpython-311.pyc  |    Bin [31m0[m -> [32m20525[m bytes
+ .../__pycache__/JpegImagePlugin.cpython-311.pyc    |    Bin [31m0[m -> [32m37417[m bytes
+ .../PIL/__pycache__/JpegPresets.cpython-311.pyc    |    Bin [31m0[m -> [32m8408[m bytes
+ .../__pycache__/McIdasImagePlugin.cpython-311.pyc  |    Bin [31m0[m -> [32m2480[m bytes
+ .../PIL/__pycache__/MicImagePlugin.cpython-311.pyc |    Bin [31m0[m -> [32m4255[m bytes
+ .../__pycache__/MpegImagePlugin.cpython-311.pyc    |    Bin [31m0[m -> [32m3894[m bytes
+ .../PIL/__pycache__/MpoImagePlugin.cpython-311.pyc |    Bin [31m0[m -> [32m9554[m bytes
+ .../PIL/__pycache__/MspImagePlugin.cpython-311.pyc |    Bin [31m0[m -> [32m6458[m bytes
+ .../PIL/__pycache__/PSDraw.cpython-311.pyc         |    Bin [31m0[m -> [32m8439[m bytes
+ .../PIL/__pycache__/PaletteFile.cpython-311.pyc    |    Bin [31m0[m -> [32m2516[m bytes
+ .../__pycache__/PalmImagePlugin.cpython-311.pyc    |    Bin [31m0[m -> [32m9782[m bytes
+ .../PIL/__pycache__/PcdImagePlugin.cpython-311.pyc |    Bin [31m0[m -> [32m2603[m bytes
+ .../PIL/__pycache__/PcfFontFile.cpython-311.pyc    |    Bin [31m0[m -> [32m12403[m bytes
+ .../PIL/__pycache__/PcxImagePlugin.cpython-311.pyc |    Bin [31m0[m -> [32m8426[m bytes
+ .../PIL/__pycache__/PdfImagePlugin.cpython-311.pyc |    Bin [31m0[m -> [32m10406[m bytes
+ .../PIL/__pycache__/PdfParser.cpython-311.pyc      |    Bin [31m0[m -> [32m59018[m bytes
+ .../__pycache__/PixarImagePlugin.cpython-311.pyc   |    Bin [31m0[m -> [32m2145[m bytes
+ .../PIL/__pycache__/PngImagePlugin.cpython-311.pyc |    Bin [31m0[m -> [32m68308[m bytes
+ .../PIL/__pycache__/PpmImagePlugin.cpython-311.pyc |    Bin [31m0[m -> [32m15544[m bytes
+ .../PIL/__pycache__/PsdImagePlugin.cpython-311.pyc |    Bin [31m0[m -> [32m12627[m bytes
+ .../PIL/__pycache__/QoiImagePlugin.cpython-311.pyc |    Bin [31m0[m -> [32m12407[m bytes
+ .../PIL/__pycache__/SgiImagePlugin.cpython-311.pyc |    Bin [31m0[m -> [32m8613[m bytes
+ .../__pycache__/SpiderImagePlugin.cpython-311.pyc  |    Bin [31m0[m -> [32m14156[m bytes
+ .../PIL/__pycache__/SunImagePlugin.cpython-311.pyc |    Bin [31m0[m -> [32m3737[m bytes
+ .../PIL/__pycache__/TarIO.cpython-311.pyc          |    Bin [31m0[m -> [32m2344[m bytes
+ .../PIL/__pycache__/TgaImagePlugin.cpython-311.pyc |    Bin [31m0[m -> [32m9715[m bytes
+ .../__pycache__/TiffImagePlugin.cpython-311.pyc    |    Bin [31m0[m -> [32m111345[m bytes
+ .../PIL/__pycache__/TiffTags.cpython-311.pyc       |    Bin [31m0[m -> [32m19868[m bytes
+ .../PIL/__pycache__/WalImageFile.cpython-311.pyc   |    Bin [31m0[m -> [32m4419[m bytes
+ .../__pycache__/WebPImagePlugin.cpython-311.pyc    |    Bin [31m0[m -> [32m14144[m bytes
+ .../PIL/__pycache__/WmfImagePlugin.cpython-311.pyc |    Bin [31m0[m -> [32m7003[m bytes
+ .../__pycache__/XVThumbImagePlugin.cpython-311.pyc |    Bin [31m0[m -> [32m2949[m bytes
+ .../PIL/__pycache__/XbmImagePlugin.cpython-311.pyc |    Bin [31m0[m -> [32m4529[m bytes
+ .../PIL/__pycache__/XpmImagePlugin.cpython-311.pyc |    Bin [31m0[m -> [32m7028[m bytes
+ .../PIL/__pycache__/__init__.cpython-311.pyc       |    Bin [31m0[m -> [32m2133[m bytes
+ .../PIL/__pycache__/__main__.cpython-311.pyc       |    Bin [31m0[m -> [32m429[m bytes
+ .../PIL/__pycache__/_binary.cpython-311.pyc        |    Bin [31m0[m -> [32m3923[m bytes
+ .../PIL/__pycache__/_deprecate.cpython-311.pyc     |    Bin [31m0[m -> [32m2756[m bytes
+ .../__pycache__/_tkinter_finder.cpython-311.pyc    |    Bin [31m0[m -> [32m788[m bytes
+ .../PIL/__pycache__/_typing.cpython-311.pyc        |    Bin [31m0[m -> [32m1875[m bytes
+ .../PIL/__pycache__/_util.cpython-311.pyc          |    Bin [31m0[m -> [32m1828[m bytes
+ .../PIL/__pycache__/_version.cpython-311.pyc       |    Bin [31m0[m -> [32m273[m bytes
+ .../PIL/__pycache__/features.cpython-311.pyc       |    Bin [31m0[m -> [32m15507[m bytes
+ .../PIL/__pycache__/report.cpython-311.pyc         |    Bin [31m0[m -> [32m369[m bytes
+ .../site-packages/PIL/_avif.cp311-win_amd64.pyd    |    Bin [31m0[m -> [32m7888896[m bytes
+ .venv/Lib/site-packages/PIL/_avif.pyi              |      3 [32m+[m
+ .venv/Lib/site-packages/PIL/_binary.py             |    113 [32m+[m
+ .venv/Lib/site-packages/PIL/_deprecate.py          |     72 [32m+[m
+ .../site-packages/PIL/_imaging.cp311-win_amd64.pyd |    Bin [31m0[m -> [32m2632704[m bytes
+ .venv/Lib/site-packages/PIL/_imaging.pyi           |     31 [32m+[m
+ .../PIL/_imagingcms.cp311-win_amd64.pyd            |    Bin [31m0[m -> [32m273408[m bytes
+ .venv/Lib/site-packages/PIL/_imagingcms.pyi        |    143 [32m+[m
+ .../PIL/_imagingft.cp311-win_amd64.pyd             |    Bin [31m0[m -> [32m2174464[m bytes
+ .venv/Lib/si

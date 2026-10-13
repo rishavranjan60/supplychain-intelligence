@@ -34,3 +34,48 @@ jobs:
 
       - name: Run unit tests
         run: python -m pytest tests/unit -v
+
+  integration-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: |
+            requirements.txt
+            requirements-dev.txt
+            pyproject.toml
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements-dev.txt
+          python -m pip install -e .
+
+      - name: Start isolated test database
+        run: |
+          docker compose -p supplychain-tests \
+            -f docker-compose.test.yml up -d --wait --wait-timeout 90
+
+      - name: Run integration test
+        env:
+          RUN_INTEGRATION_TESTS: "1"
+        run: python -m pytest tests/integration -v
+
+      - name: Show database logs on failure
+        if: failure()
+        run: |
+          docker compose -p supplychain-tests \
+            -f docker-compose.test.yml logs --no-color
+
+      - name: Stop test database
+        if: always()
+        run: |
+          docker compose -p supplychain-tests \
+            -f docker-compose.test.yml down
